@@ -55,7 +55,7 @@ public class Main {
             response = input.next().charAt(0);
 
             if (response != 'S' && response != 's') {
-                row = column = 0;
+                row = column = -1;
             }
         } while (row != -1 || column != -1);
     }
